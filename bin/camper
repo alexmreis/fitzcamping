@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'fitzcamping'
+Fitzcamping::Camper.say ARGV[0]
