@@ -1,16 +1,22 @@
 # Fitzcamping
 
-TODO: Write a gem description
+Super simple CLI tool to post messages to Campfire
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install the gem on your system
 
-    gem 'fitzcamping'
+    $ gem install fitzcamping
 
+Set the environment variables
+
+    export CAMPFIRE_SITE=<your site name>
+    export CAMPFIRE_ROOM=<room name>
+    export CAMPFIRE_TOKEN=<your campfire API token>
+    
 And then execute:
 
-    $ bundle
+    $ camper "Hello world in campfire"
 
 Or install it yourself as:
 
@@ -18,7 +24,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run from command line
+    
+    $ camper "message"
 
 ## Contributing
 
