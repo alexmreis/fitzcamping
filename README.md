@@ -18,10 +18,6 @@ And then execute:
 
     $ camper "Hello world in campfire"
 
-Or install it yourself as:
-
-    $ gem install fitzcamping
-
 ## Usage
 
 Run from command line
