@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["alex@alexmreis.com"]
   spec.description   = "Command line utility for posting campfire notifications"
   spec.summary       = "Simple Campfire CLI"
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/alexmreis/fitzcamping"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
